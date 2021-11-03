@@ -1,7 +1,7 @@
 anychart.onDocumentReady(function () {
     data = [];
     dataSet = anychart.data.set(data);
-    let valueMapper = dataSet.mapAs({x: 0, value: 1, fill: 2, stroke: 2});
+    let valueMapper = dataSet.mapAs({x: 0, value: 1});
     let chart = anychart.column();
     chart.column(valueMapper);
     chart.container("chart");
