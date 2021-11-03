@@ -8,7 +8,7 @@ anychart.onDocumentReady(function () {
     chart.draw();
 });
 let columnCounter = 1;
-function addRow() {
+function submit() {
     let stringReader = document.querySelector('.findInfo').value;
     let unformattedString = stringReader.split(' ');
     let array = [];
